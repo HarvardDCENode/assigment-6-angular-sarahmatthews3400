@@ -1,5 +1,5 @@
 # Assignment #6 - Angular
 
-The description of this assignment can be found in Canvas at [Assignment #6](https://canvas.harvard.edu/courses/112562/assignments/660149) (Spring 2023)
+This Angular application is closely based on the Photos example code, so it has limited functionality--it just lists the example tea data and lets you upvote the tea cards. I think that's sufficient for this assignment, but I'll add the other functionality back in for the final. 
 
-You should build your application in this repo cloned for you in Github Classroom. You'll submit your github URL in Canvas.
+(I 100% recommend trying any and all teas listed if you like tea.)

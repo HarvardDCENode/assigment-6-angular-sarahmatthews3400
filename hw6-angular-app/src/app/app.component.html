@@ -1,0 +1,11 @@
+<h1> Tea Journal</h1>
+Welcome to the Angular version of my tea journal application!<br/>
+It closely mimics the Photos application for simplicity's sake, for now. <br/>
+I'll augment it when I integrate it with the REST backend for the final. <br/>
+Number of Teas: {{ numTeas }}
+<p>Total Votes Received: {{ totalVotes }}, Most Recent Vote Recipient: {{ mostRecentVotedOn }}</p>
+<app-tea
+  *ngFor='let teaObject of teaList'
+  [tea]="teaObject"
+  (upvotedEvent)="handleUpvoted($event)">
+</app-tea>
